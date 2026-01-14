@@ -1,0 +1,1269 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>co.medical – Medizinische Kommunikation</title>
+
+  <!-- Optional: Webfont (Systemfont-Fallback ist im CSS enthalten) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="#home" aria-label="Zur Startseite">
+        <!-- Platzhalter-Logo -->
+        <img class="brand__logo" src="assets/logo.svg" alt="co.medical" />
+        <span class="brand__sub">A Cytel Brand</span>
+      </a>
+
+      <!-- Mobile nav toggle (CSS-only) -->
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+      <label class="nav-toggle__btn" for="nav-toggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="#home">Home</a></li>
+          <li><a class="site-nav__link" href="#agentur">Agentur</a></li>
+          <li><a class="site-nav__link" href="#referenzen">Referenzen</a></li>
+          <li><a class="site-nav__link" href="#karriere">Karriere</a></li>
+          <li><a class="site-nav__link" href="#services">Services</a></li>
+        </ul>
+
+        <a class="btn btn--outline btn--small" href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero theme-dark" id="home">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Dichter an der Medizin.<br />
+            Kreativer in der <span class="hero__accent">Kommunikation</span>.
+          </h1>
+
+          <p class="hero__lead">
+            Medizinische Expertise und kreative Kommunikationskonzepte effektiv kombiniert – das ist co.medical.
+            Seit 15 Jahren erreichen wir für unsere Kunden aus Pharmaindustrie, Medizintechnik und Life Science
+            das Optimum in der medizinischen Kommunikation: Präzise, effizient, hochqualitativ.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#agentur">Erfahren Sie mehr</a>
+            <a class="btn btn--outline" href="#kontakt">Kontaktieren Sie uns</a>
+          </div>
+
+          <dl class="hero__stats" aria-label="Kennzahlen">
+            <div class="stat">
+              <dt class="stat__value">100</dt>
+              <dd class="stat__label">Kunden</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value">100</dt>
+              <dd class="stat__label">Topic</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value">100</dt>
+              <dd class="stat__label">Topic</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value">100</dt>
+              <dd class="stat__label">Topic</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <!-- Kundenleiste -->
+      <div class="customers-bar" aria-label="Kunden">
+        <div class="container customers-bar__inner">
+          <span class="customers-bar__label">Kunden</span>
+          <ul class="customers-bar__logos" aria-label="Kundenlogos (Platzhalter)">
+            <li><span class="logo-pill">medac</span></li>
+            <li><span class="logo-pill">B. BRAUN</span></li>
+            <li><span class="logo-pill">Bionorica</span></li>
+            <li><span class="logo-pill">MERCK</span></li>
+            <li><span class="logo-pill">BAYER</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section--light" id="services">
+      <div class="container">
+        <header class="section__header">
+          <h2>Unsere Services</h2>
+        </header>
+
+        <div class="cards-grid">
+          <article class="card service-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M4 20h16" />
+                <path d="M8 16l8-8 2 2-8 8H8v-2z" />
+              </svg>
+            </div>
+            <h3 class="card__title">Medical Writing</h3>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.
+            </p>
+            <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+          </article>
+
+          <article class="card service-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M12 2v20" />
+                <path d="M2 12h20" />
+                <path d="M7 7l10 10" />
+              </svg>
+            </div>
+            <h3 class="card__title">Medical Affairs</h3>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.
+            </p>
+            <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+          </article>
+
+          <article class="card service-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <circle cx="12" cy="12" r="8" />
+                <path d="M12 8v8" />
+                <path d="M8 12h8" />
+              </svg>
+            </div>
+            <h3 class="card__title">Medical Graphics</h3>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.
+            </p>
+            <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+          </article>
+
+          <article class="card service-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M4 6h16" />
+                <path d="M4 10h10" />
+                <path d="M4 14h16" />
+                <path d="M4 18h10" />
+              </svg>
+            </div>
+            <h3 class="card__title">Medical Education</h3>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.
+            </p>
+            <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+          </article>
+
+          <article class="card service-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M6 3h12v18H6z" />
+                <path d="M9 7h6" />
+                <path d="M9 11h6" />
+              </svg>
+            </div>
+            <h3 class="card__title">Medical Liaison</h3>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.
+            </p>
+            <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+          </article>
+
+          <article class="card service-card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M4 20V6" />
+                <path d="M4 6l8-2 8 2v14l-8 2-8-2z" />
+                <path d="M12 4v18" />
+              </svg>
+            </div>
+            <h3 class="card__title">Medical Marketing</h3>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.
+            </p>
+            <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--dark about theme-dark" id="agentur">
+      <div class="container about__inner">
+        <div class="about__media" aria-hidden="true">
+          <!-- Platzhalterbild (z.B. 3D-Form aus dem Entwurf) -->
+          <img src="assets/about-shape.png" alt="" />
+        </div>
+
+        <div class="about__content">
+          <h2>Das sind Wir.</h2>
+          <p class="muted">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+            laoreet dolore magna aliquam erat volutpat.
+          </p>
+
+          <ul class="feature-grid">
+            <li class="feature"><span class="feature__icon" aria-hidden="true"></span><p>Fachwissen von 50+ interdisziplinären Expert*innen</p></li>
+            <li class="feature"><span class="feature__icon" aria-hidden="true"></span><p>Seit der Gründung im Jahr 2010 in der Branche tätig.</p></li>
+            <li class="feature"><span class="feature__icon" aria-hidden="true"></span><p>Unser Fokus: Medizinische Kommunikation</p></li>
+            <li class="feature"><span class="feature__icon" aria-hidden="true"></span><p>Unser Scope: 70% nationale und 30% globale Projekte</p></li>
+            <li class="feature"><span class="feature__icon" aria-hidden="true"></span><p>Relevante Erfahrung in über 20 Indikationen</p></li>
+            <li class="feature"><span class="feature__icon" aria-hidden="true"></span><p>Unser Ziel: On target, on time, on budget.</p></li>
+          </ul>
+
+          <div class="actions">
+            <a class="btn btn--primary" href="#referenzen">Unsere Projekte</a>
+            <a class="btn btn--outline" href="#kontakt">Kontaktieren Sie uns</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section--light process" id="prozess">
+      <div class="container">
+        <header class="section__header">
+          <h2>So läuft ein Projekt mit uns ab</h2>
+          <p class="muted">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+            laoreet dolore magna aliquam erat volutpat.
+          </p>
+        </header>
+
+        <div class="process__wrap">
+          <!-- verbindende Linien (Desktop). Auf Mobile ausgeblendet (siehe CSS). -->
+          <svg class="process__lines" viewBox="0 0 1000 480" preserveAspectRatio="none" aria-hidden="true">
+            <path class="line" d="M170,140 C170,220 170,220 170,300" />
+            <path class="line" d="M240,320 C350,320 350,160 460,160" />
+            <path class="line" d="M500,190 C500,255 500,255 500,320" />
+            <path class="line" d="M540,340 C680,340 680,160 820,160" />
+            <path class="arrow" d="M820,160 l-18,-10 l0,20 z" />
+          </svg>
+
+          <div class="process__grid">
+            <article class="card process-step step--1">
+              <div class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M4 6h16" /><path d="M4 12h16" /><path d="M4 18h10" />
+                </svg>
+              </div>
+              <p>Persönlicher Videocall zur Projektbesprechung mit von uns verfasstem Rebriefing</p>
+            </article>
+
+            <article class="card process-step step--2">
+              <div class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M6 3h12v18H6z" /><path d="M9 7h6" /><path d="M9 11h6" />
+                </svg>
+              </div>
+              <p>Erstellung eines transparenten Angebotes: mit stundengenau kalkulierten Arbeitspaketen</p>
+            </article>
+
+            <article class="card process-step step--3">
+              <div class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M7 7h10v10H7z" /><path d="M10 10h4" /><path d="M10 14h4" />
+                </svg>
+              </div>
+              <p>Single Point of Contact: Direkter Draht zum/zur Expert*in ermöglicht schnelle Abstimmung</p>
+            </article>
+
+            <article class="card process-step step--4">
+              <div class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M4 12l4 4L20 4" />
+                </svg>
+              </div>
+              <p>Qualitätssicherung: Wir überprüfen jedes Deliverable nach dem Vier-Augen-Prinzip</p>
+            </article>
+
+            <article class="card process-step step--5">
+              <div class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M12 20l9-8-9-8-9 8 9 8z" />
+                  <path d="M12 12l9-8" />
+                </svg>
+              </div>
+              <p>Kundenfeedback: Ihre Rückmeldung trägt zu unserer kontinuierlichen Prozessoptimierung bei</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section--dark projects theme-dark" id="referenzen">
+      <div class="container">
+        <header class="section__header section__header--split">
+          <div>
+            <h2>Unsere bisherigen Projekte.</h2>
+            <p class="muted">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+              laoreet dolore magna aliquam erat volutpat.
+            </p>
+          </div>
+
+          <a class="btn btn--outline" href="#">Alle Projekte im Überblick</a>
+        </header>
+
+        <div class="carousel" aria-label="Projekt-Slider (horizontal scroll)">
+          <article class="card media-card">
+            <img src="assets/projects/project-01.jpg" alt="Projekt 1 (Platzhalter)" />
+            <div class="media-card__body">
+              <h3>Projektname 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+            </div>
+          </article>
+
+          <article class="card media-card">
+            <img src="assets/projects/project-02.jpg" alt="Projekt 2 (Platzhalter)" />
+            <div class="media-card__body">
+              <h3>Projektname 2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+            </div>
+          </article>
+
+          <article class="card media-card">
+            <img src="assets/projects/project-03.jpg" alt="Projekt 3 (Platzhalter)" />
+            <div class="media-card__body">
+              <h3>Projektname 3</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="section section--light" id="blog">
+      <div class="container">
+        <header class="section__header section__header--split">
+          <div>
+            <h2>Unser Expertenblog</h2>
+            <p class="muted">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+              laoreet dolore magna aliquam erat volutpat.
+            </p>
+          </div>
+
+          <a class="btn btn--outline btn--on-light" href="#">Zur Bibliothek</a>
+        </header>
+
+        <div class="carousel carousel--blog" aria-label="Blog-Slider (horizontal scroll)">
+          <article class="card blog-card">
+            <div class="blog-card__date">20.09.2025</div>
+            <img src="assets/blog/blog-01.jpg" alt="Blogbeitrag 1 (Platzhalter)" />
+            <div class="blog-card__body">
+              <h3>Lorem ipsum dolor</h3>
+              <p>Nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+              <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+            </div>
+          </article>
+
+          <article class="card blog-card">
+            <div class="blog-card__date">20.09.2025</div>
+            <img src="assets/blog/blog-02.jpg" alt="Blogbeitrag 2 (Platzhalter)" />
+            <div class="blog-card__body">
+              <h3>Lorem ipsum dolor</h3>
+              <p>Nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+              <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+            </div>
+          </article>
+
+          <article class="card blog-card">
+            <div class="blog-card__date">20.09.2025</div>
+            <img src="assets/blog/blog-03.jpg" alt="Blogbeitrag 3 (Platzhalter)" />
+            <div class="blog-card__body">
+              <h3>Lorem ipsum dolor</h3>
+              <p>Nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+              <a class="btn btn--primary btn--small" href="#">Mehr Infos</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREER CTA -->
+    <section class="cta-strip theme-dark" id="karriere">
+      <div class="container cta-strip__inner">
+        <div>
+          <h2>Teil des Teams</h2>
+          <p class="muted">
+            Wir sind immer auf der Suche nach Menschen mit Interesse an der Kommunikation spannender Medizinthemen.
+            Hier geht es zu unseren offenen Stellen.
+          </p>
+        </div>
+
+        <a class="btn btn--outline" href="#">Unsere Stellenangebote</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--light" id="kontakt">
+      <div class="container">
+        <header class="section__header">
+          <h2>Kontaktieren Sie uns</h2>
+          <p class="muted">Senden Sie uns eine Nachricht – wir melden uns zeitnah zurück.</p>
+        </header>
+
+        <div class="contact">
+          <div class="contact__info">
+            <h3>Kontakt</h3>
+            <p class="muted">
+              co.medical<br />
+              Musterstraße 1<br />
+              12345 Musterstadt
+            </p>
+
+            <p>
+              <strong>E-Mail:</strong> <a href="mailto:hello@co-medical.example">hello@co-medical.example</a><br />
+              <strong>Telefon:</strong> <a href="tel:+491234567890">+49 123 456 7890</a>
+            </p>
+          </div>
+
+          <form class="contact__form" action="#" method="post">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+
+            <div class="field">
+              <label for="email">E-Mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+
+            <div class="field">
+              <label for="message">Nachricht</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button class="btn btn--primary" type="submit">Nachricht senden</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer theme-dark">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img class="brand__logo" src="assets/logo.svg" alt="co.medical" />
+      </div>
+
+      <div class="footer__cols">
+        <div class="footer-col">
+          <h3>Website</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#agentur">Agentur</a></li>
+            <li><a href="#referenzen">Referenzen</a></li>
+            <li><a href="#karriere">Karriere</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Unsere Leistungen</h3>
+          <ul>
+            <li><a href="#services">Medical Writing</a></li>
+            <li><a href="#services">Medical Affairs</a></li>
+            <li><a href="#services">Medical Graphics</a></li>
+            <li><a href="#services">Medical Education</a></li>
+            <li><a href="#services">Medical Liaison</a></li>
+            <li><a href="#services">Medical Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Rechtliche Hinweise</h3>
+          <ul>
+            <li><a href="#">AGB</a></li>
+            <li><a href="#">Impressum</a></li>
+            <li><a href="#">Datenschutz</a></li>
+          </ul>
+          <p class="footer__copy">© co.medical 2025</p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Besuchen Sie uns</h3>
+          <a class="social-pill" href="#" aria-label="LinkedIn">
+            <span aria-hidden="true">in</span>
+          </a>
+
+          <h3 class="footer-col__spacer">Unsere Brands</h3>
+          <ul>
+            <li><a href="#">www.cofaktor.de</a></li>
+            <li><a href="#">www.covalue.de</a></li>
+            <li><a href="#">www.copatient.de</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+/* ==========================================================================
+   co.medical – One-Pager Template (HTML/CSS)
+   - Mobile First, responsive
+   - Dark/Light sections, cards, carousels
+   ========================================================================== */
+
+:root{
+  /* Colors (aus dem Entwurf abgeleitet, leicht angenähert) */
+  --navy-950: #020c20;
+  --navy-900: #041229;
+  --navy-850: #071a33;
+  --ink: #101828;
+
+  --text: #1f2937;
+  --muted: #667085;
+
+  --surface: #ffffff;
+  --surface-2: #f6f7fb;
+
+  --accent-600: #f06a1a;
+  --accent-500: #f5892f;
+  --accent-400: #f8a03a;
+
+  --border: rgba(16, 24, 40, 0.12);
+  --shadow: 0 12px 28px rgba(2, 12, 32, 0.18);
+
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --container: 1200px;
+  --gutter: 22px;
+
+  --header-h: 78px;
+
+  --focus: 0 0 0 4px rgba(245, 137, 47, 0.35);
+}
+
+*,
+*::before,
+*::after{ box-sizing: border-box; }
+
+html{ scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior: auto; }
+}
+
+body{
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--surface);
+  line-height: 1.55;
+  padding-top: var(--header-h);
+}
+
+img{ max-width: 100%; display: block; }
+
+a{ color: inherit; text-decoration: none; }
+a:hover{ text-decoration: underline; }
+
+h1,h2,h3{ line-height: 1.12; margin: 0 0 .6rem; }
+h2{ font-size: clamp(1.8rem, 2.6vw, 2.6rem); letter-spacing: -0.02em; }
+h3{ font-size: 1.15rem; }
+
+p{ margin: 0 0 1rem; }
+.muted{ color: var(--muted); }
+
+.container{
+  width: min(var(--container), calc(100% - (var(--gutter) * 2)));
+  margin-inline: auto;
+}
+
+/* Accessibility */
+.skip-link{
+  position: absolute;
+  left: -999px;
+  top: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 10px 14px;
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow);
+  z-index: 999;
+}
+.skip-link:focus{
+  left: 12px;
+  outline: none;
+  box-shadow: var(--shadow), var(--focus);
+}
+
+/* Theme helpers */
+.theme-dark{
+  color: #fff;
+}
+.theme-dark .muted{ color: rgba(255,255,255,.72); }
+.theme-dark a:hover{ text-decoration: none; }
+
+/* Buttons */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .55rem;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+  padding: .92rem 1.35rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: transform .12s ease, filter .12s ease, background .12s ease;
+  user-select: none;
+  white-space: nowrap;
+}
+.btn:focus{ outline: none; box-shadow: var(--focus); }
+.btn:hover{ transform: translateY(-1px); text-decoration: none; }
+.btn:active{ transform: translateY(0); }
+
+.btn--small{ padding: .70rem 1.05rem; font-size: .95rem; }
+
+.btn--primary{
+  color: #fff;
+  background: linear-gradient(90deg, var(--accent-600), var(--accent-400));
+  box-shadow: 0 10px 22px rgba(240, 106, 26, 0.28);
+}
+.btn--primary:hover{ filter: brightness(1.02); }
+
+.btn--outline{
+  border-color: var(--accent-500);
+  background: transparent;
+  color: #fff;
+}
+.btn--outline:hover{ background: rgba(245, 137, 47, 0.12); }
+
+.btn--on-light{
+  color: var(--accent-600);
+}
+.btn--on-light.btn--outline{
+  background: transparent;
+  border-color: var(--accent-600);
+}
+
+/* Header */
+.site-header{
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: var(--header-h);
+  z-index: 50;
+  background: linear-gradient(180deg, rgba(2,12,32,.94), rgba(2,12,32,.70));
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.header__inner{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+.brand{
+  display: grid;
+  gap: 2px;
+}
+.brand__logo{
+  height: 30px;
+  width: auto;
+}
+.brand__sub{
+  font-size: .75rem;
+  color: rgba(255,255,255,.75);
+}
+
+/* Nav (Desktop) */
+.site-nav{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.site-nav__list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 0;
+  margin: 0;
+}
+.site-nav__link{
+  color: rgba(255,255,255,.86);
+  font-weight: 500;
+  font-size: .95rem;
+}
+.site-nav__link:hover{ color: #fff; text-decoration: none; }
+
+/* Mobile nav toggle */
+.nav-toggle{ display: none; }
+.nav-toggle__btn{
+  display: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.18);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+.nav-toggle__btn span{
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: rgba(255,255,255,.88);
+  border-radius: 999px;
+}
+
+/* Hero */
+.hero{
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 78% 35%, rgba(245, 137, 47, 0.18), transparent 56%),
+    linear-gradient(90deg, rgba(2,12,32,0.95) 0%, rgba(2,12,32,0.83) 56%, rgba(2,12,32,0.35) 100%),
+    url("assets/hero-dna.jpg");
+  background-size: cover;
+  background-position: center right;
+  padding: clamp(3.6rem, 7vw, 6.2rem) 0 0;
+}
+.hero__inner{
+  display: grid;
+  grid-template-columns: 1.05fr;
+  gap: 26px;
+  padding-bottom: 42px;
+}
+.hero__content{
+  max-width: 740px;
+}
+.hero__title{
+  font-size: clamp(2.1rem, 4.3vw, 3.7rem);
+  letter-spacing: -0.03em;
+  margin-bottom: 1rem;
+}
+.hero__accent{
+  color: var(--accent-400);
+}
+.hero__lead{
+  max-width: 62ch;
+  font-size: 1.02rem;
+  color: rgba(255,255,255,.78);
+}
+.hero__actions{
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 22px 0 28px;
+}
+
+/* Stats */
+.hero__stats{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+}
+.stat{
+  padding: 8px 4px;
+  border-left: 1px solid rgba(255,255,255,.10);
+}
+.stat:first-child{ border-left: none; }
+.stat__value{
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+}
+.stat__label{
+  margin: 0;
+  color: rgba(255,255,255,.72);
+  font-size: .92rem;
+}
+
+/* Customers bar */
+.customers-bar{
+  background: rgba(2,12,32,.86);
+  border-top: 1px solid rgba(255,255,255,.08);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.customers-bar__inner{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+}
+.customers-bar__label{
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: rgba(255,255,255,.85);
+  white-space: nowrap;
+}
+.customers-bar__logos{
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.customers-bar__logos::-webkit-scrollbar{ display: none; }
+.logo-pill{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(255,255,255,.14);
+  color: rgba(255,255,255,.82);
+  font-weight: 600;
+  font-size: .92rem;
+}
+
+/* Sections */
+.section{
+  padding: clamp(2.6rem, 5vw, 4.5rem) 0;
+}
+.section--light{ background: var(--surface); }
+.section--dark{
+  background: linear-gradient(90deg, rgba(2,12,32,.98) 0%, rgba(49,42,97,.92) 100%);
+}
+.section__header{
+  margin-bottom: 1.6rem;
+}
+.section__header--split{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+}
+.section__header--split > div{ max-width: 68ch; }
+
+/* Cards */
+.card{
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2.6rem 1.7rem 1.6rem;
+  box-shadow: 0 10px 26px rgba(2,12,32,0.08);
+}
+.theme-dark .card{ box-shadow: 0 16px 34px rgba(2,12,32,0.22); }
+
+.cards-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.card__title{
+  color: var(--accent-600);
+  font-size: 1.25rem;
+  margin-top: .6rem;
+}
+.card__text{
+  color: var(--muted);
+  font-size: .98rem;
+  margin-bottom: 1.35rem;
+}
+
+/* Icon badge */
+.icon-badge{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, var(--accent-600), var(--accent-400));
+  color: #fff;
+  margin: -4.2rem auto .6rem;
+  box-shadow: 0 14px 24px rgba(240, 106, 26, 0.28);
+}
+
+/* About */
+.about{
+  position: relative;
+  overflow: hidden;
+}
+.about__inner{
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: center;
+  gap: 34px;
+}
+.about__media img{
+  width: 100%;
+  max-width: 460px;
+  margin: 0 auto;
+  filter: drop-shadow(0 20px 40px rgba(0,0,0,.35));
+}
+.about__content h2{
+  margin-bottom: 1rem;
+}
+.feature-grid{
+  list-style: none;
+  padding: 0;
+  margin: 1.35rem 0 1.65rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.feature{
+  display: grid;
+  gap: 10px;
+  padding: 14px 14px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.03);
+}
+.feature__icon{
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, var(--accent-600), var(--accent-400));
+  box-shadow: 0 14px 24px rgba(240, 106, 26, 0.22);
+}
+.feature p{ margin: 0; color: rgba(255,255,255,.82); font-size: .95rem; }
+
+.actions{
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* Process */
+.process__wrap{
+  position: relative;
+  padding-top: 12px;
+}
+.process__lines{
+  position: absolute;
+  inset: 0 0 0 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.process__lines .line{
+  fill: none;
+  stroke: var(--accent-500);
+  stroke-width: 14;
+  stroke-linecap: round;
+  opacity: 0.95;
+}
+.process__lines .arrow{ fill: var(--accent-500); opacity: .95; }
+
+.process__grid{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: auto auto;
+  gap: 56px 46px;
+  padding: 34px 0 6px;
+}
+.process-step{
+  padding: 2.1rem 1.4rem 1.35rem;
+  text-align: center;
+}
+.process-step p{
+  margin: .35rem 0 0;
+  color: var(--muted);
+  font-size: .98rem;
+}
+.process-step .icon-badge{ margin-top: -3.8rem; }
+
+.step--1{ grid-column: 1; grid-row: 1; }
+.step--2{ grid-column: 1; grid-row: 2; }
+.step--3{ grid-column: 2; grid-row: 1; }
+.step--4{ grid-column: 2; grid-row: 2; }
+.step--5{ grid-column: 3; grid-row: 1; }
+
+/* Carousels */
+.carousel{
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 10px 2px 18px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar{ display: none; }
+.carousel > *{
+  scroll-snap-align: start;
+}
+
+.media-card{
+  padding: 0;
+  overflow: hidden;
+  border-radius: 20px;
+  background: rgba(255,255,255,.92);
+}
+.media-card img{
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+.media-card__body{
+  padding: 16px 16px 18px;
+}
+.media-card__body h3{ margin: 0 0 .35rem; color: var(--ink); }
+.media-card__body p{ margin: 0 0 12px; color: var(--muted); }
+
+.projects .carousel > .media-card{
+  flex: 0 0 calc((100% - 36px) / 3);
+}
+
+/* Blog cards */
+.blog-card{
+  padding: 0;
+  overflow: hidden;
+  border-radius: 22px;
+}
+.blog-card__date{
+  background: linear-gradient(90deg, var(--accent-600), var(--accent-400));
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 12px;
+}
+.blog-card img{
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+.blog-card__body{
+  padding: 16px 16px 18px;
+}
+.blog-card__body h3{ margin: 0 0 .35rem; }
+.blog-card__body p{ margin: 0 0 12px; color: var(--muted); }
+
+.carousel--blog > .blog-card{
+  flex: 0 0 calc((100% - 36px) / 3);
+}
+
+/* CTA strip */
+.cta-strip{
+  background:
+    radial-gradient(circle at 88% 50%, rgba(245, 137, 47, 0.18), transparent 55%),
+    linear-gradient(90deg, rgba(2,12,32,0.98), rgba(2,12,32,0.74));
+  padding: 22px 0;
+  border-top: 1px solid rgba(255,255,255,.10);
+  border-bottom: 1px solid rgba(255,255,255,.10);
+}
+.cta-strip__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+.cta-strip h2{
+  font-size: 1.25rem;
+  margin: 0 0 .25rem;
+}
+
+/* Contact */
+.contact{
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 22px;
+  align-items: start;
+}
+.contact__info{
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 18px 16px;
+}
+.contact__form{
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 18px 16px;
+  box-shadow: 0 10px 26px rgba(2,12,32,0.08);
+}
+.field{ display: grid; gap: 6px; margin-bottom: 12px; }
+label{ font-weight: 600; font-size: .95rem; }
+input, textarea{
+  width: 100%;
+  border: 1px solid rgba(16, 24, 40, 0.18);
+  border-radius: 14px;
+  padding: 12px 12px;
+  font: inherit;
+}
+input:focus, textarea:focus{
+  outline: none;
+  box-shadow: var(--focus);
+  border-color: rgba(245, 137, 47, 0.6);
+}
+
+/* Footer */
+.site-footer{
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(2,12,32,0.98) 0%, rgba(2,12,32,0.88) 62%, rgba(2,12,32,0.56) 100%),
+    url("assets/footer-dna.jpg");
+  background-size: cover;
+  background-position: center right;
+  padding: 42px 0 54px;
+  border-top: 1px solid rgba(255,255,255,.10);
+}
+.footer__inner{
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 26px;
+  align-items: start;
+}
+.footer__cols{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+.footer-col h3{
+  font-size: .95rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+  color: rgba(255,255,255,.92);
+}
+.footer-col ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 9px;
+}
+.footer-col a{
+  color: rgba(255,255,255,.70);
+  font-size: .95rem;
+}
+.footer-col a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.footer__copy{
+  margin-top: 14px;
+  color: rgba(255,255,255,.55);
+  font-size: .9rem;
+}
+.footer-col__spacer{ margin-top: 16px; }
+
+.social-pill{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.16);
+  color: #fff;
+  background: rgba(255,255,255,.05);
+}
+.social-pill:hover{ text-decoration: none; background: rgba(245, 137, 47, .12); }
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+/* <= 1024px */
+@media (max-width: 1024px){
+  .cards-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .feature-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .about__inner{ grid-template-columns: 1fr; }
+  .projects .carousel > .media-card,
+  .carousel--blog > .blog-card{
+    flex: 0 0 calc((100% - 18px) / 2);
+  }
+  .footer__inner{ grid-template-columns: 1fr; }
+  .footer__cols{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* <= 860px: Mobile nav */
+@media (max-width: 860px){
+  body{ padding-top: 70px; }
+  .site-header{ height: 70px; }
+
+  .nav-toggle__btn{ display: inline-flex; }
+
+  .site-nav{
+    position: absolute;
+    top: 70px;
+    right: var(--gutter);
+    left: var(--gutter);
+    background: rgba(2,12,32,.98);
+    border: 1px solid rgba(255,255,255,.10);
+    border-radius: 18px;
+    padding: 14px;
+    display: grid;
+    gap: 12px;
+    transform: translateY(-12px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .18s ease, transform .18s ease;
+  }
+  .site-nav__list{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .site-nav__link{
+    padding: 10px 10px;
+    border-radius: 12px;
+    background: rgba(255,255,255,.04);
+  }
+
+  /* Show when checkbox checked */
+  .nav-toggle:checked ~ .site-nav{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .hero__stats{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .section__header--split{ flex-direction: column; align-items: flex-start; }
+  .cta-strip__inner{ flex-direction: column; align-items: flex-start; }
+  .contact{ grid-template-columns: 1fr; }
+}
+
+/* <= 640px */
+@media (max-width: 640px){
+  .cards-grid{ grid-template-columns: 1fr; }
+  .feature-grid{ grid-template-columns: 1fr; }
+
+  .process__lines{ display: none; }
+  .process__grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 18px;
+    padding: 12px 0 0;
+  }
+  .step--1, .step--2, .step--3, .step--4, .step--5{
+    grid-column: auto; grid-row: auto;
+    text-align: left;
+  }
+  .process-step{ padding: 1.8rem 1.2rem 1.2rem; }
+  .process-step .icon-badge{ margin-left: 0; margin-right: auto; }
+
+  .projects .carousel > .media-card,
+  .carousel--blog > .blog-card{
+    flex: 0 0 86%;
+  }
+
+  .footer__cols{ grid-template-columns: 1fr; }
+}
